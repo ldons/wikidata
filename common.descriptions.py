@@ -133,6 +133,7 @@ def main():
             'ru': 'энциклопедическая статья',
             'sl': 'enciklopedični članek',
             'sv': 'encyklopedisk artikel',
+            'sq': 'artikull enciklopedik',
         }, 
         'genus of algae': {
             'ar': 'جنس من الطحالب',
@@ -145,6 +146,7 @@ def main():
             'nb': 'algeslekt',
             'nn': 'algeslekt',
             'ro': 'gen de alge',
+            'sq': 'gjini e algave',
         }, 
         'genus of amphibians': {
             'ar': 'جنس من البرمائيات',
@@ -159,6 +161,7 @@ def main():
             'nn': 'amfibieslekt',
             'ro': 'gen de amfibieni',
             'ru': 'род амфибий',
+            'sq': 'lgjini e amfibëve',
         }, 
         'genus of arachnids': {
             'ar': 'جنس من العنكبوتيات',
@@ -186,6 +189,7 @@ def main():
             'id': 'genus burung',
             'it': 'genere di uccelli',
             'ro': 'gen de păsări',
+            'sq': 'gjini e zogjve',
         }, 
         'genus of fishes': {
             'ar': 'جنس من الأسماك',
@@ -201,6 +205,7 @@ def main():
             'pt': 'género de peixes',
             'pt-br': 'gênero de peixes',
             'ro': 'gen de pești',
+            'sq': 'gjini e peshqve',
         }, 
         'genus of fungi': {
             'ar': 'جنس من الفطريات',
@@ -216,6 +221,7 @@ def main():
             'nn': 'soppslekt',
             'pt': 'género de fungos',
             'pt-br': 'gênero de fungos',
+            'sq': 'gjini e kërpurdhave',
 #            'ro': 'gen de fungi',# or 'gen de ciuperci'
         }, 
         'genus of insects': {
@@ -234,6 +240,7 @@ def main():
             'pt-br': 'gênero de insetos',
             'ro': 'gen de insecte',
             'ru': 'род насекомых',
+            'sq': 'gjini e insekteve',
         }, 
         'genus of mammals': {
             'ar': 'جنس من الثدييات',
@@ -248,6 +255,7 @@ def main():
             'nb': 'pattedyrslekt',
             'nn': 'pattedyrslekt',
             'ro': 'gen de mamifere',
+            'sq': 'gjini e gjitarëve',
         }, 
         'genus of molluscs': {
             'ar': 'جنس من الرخويات',
@@ -263,6 +271,7 @@ def main():
             'nb': 'bløtdyrslekt',
             'nn': 'blautdyrslekt',
             'ro': 'gen de moluște',
+            'sq': 'gjini e molusqeve',
         }, 
         'genus of plants': {
             'ar': 'جنس من النباتات',
@@ -279,6 +288,7 @@ def main():
             'pt': 'género de plantas',
             'pt-br': 'gênero de plantas',
             'ro': 'gen de plante',
+            'sq': 'gjini e bimëve',
         }, 
         'genus of reptiles': {
             'ar': 'جنس من الزواحف',
@@ -292,6 +302,7 @@ def main():
             'nb': 'krypdyrslekt',
             'nn': 'krypdyrslekt',
             'ro': 'gen de reptile',
+            
         }, 
         'family name': {
             'an': 'apelliu', 
@@ -353,7 +364,7 @@ def main():
             'sl': 'priimek',
             'sma': 'fuelhkienomme',
             'smj': 'maŋepnamma',
-            'sq': 'mbiemri', 
+            'sq': 'mbiemër', 
             'sr': 'презиме', 
             'sv': 'efternamn', 
             'tl': 'apelyido', 
@@ -466,6 +477,7 @@ def main():
             'id': 'tahun kalendar Islam',
             'nb': 'islamsk kalenderår',
             'nn': 'islamsk kalenderår',
+            'sq': 'vit kalaendarik islamik',
         }, 
         'male given name': {
             'af': 'manlike voornaam',
@@ -577,6 +589,7 @@ def main():
             'szl': 'naturalno nůmera',
             'ru': 'натуральное число',
             'uk': 'натуральне число',
+            'sq': 'numër natyror',
         },
         'scientific article': { # hay quien pone la fecha https://www.wikidata.org/wiki/Q19983493
             'ar': 'مقالة علمية',
@@ -599,6 +612,7 @@ def main():
             'ro': 'articol științific',
             'ru': 'научная статья',
             'uk': 'наукова стаття',
+            'sq': 'artikull shkencor',
         }, 
         'species of insect': { #las descripciones DE y FR tienen mayor precision y serian mas deseables
         #decidir que hacer
@@ -619,6 +633,7 @@ def main():
             'ro': 'specie de insecte',
             'ru': 'вид насекомых',
             'ta': 'பூச்சி இனம்',
+            'sq': 'lloj i i insekteve',
         },
         'village in China': {
             'an': 'pueblo d\'a Republica Popular de China', #o 'pueblo de China'
@@ -1077,7 +1092,8 @@ def main():
             'ro': 'an',
             'ru': 'год', 
             'tr': 'yıl',
-            'uk': 'рік', 
+            'uk': 'рік',
+            'sq': 'vit',
         },
     }
     site = pywikibot.Site('wikidata', 'wikidata')
